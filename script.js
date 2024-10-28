@@ -7,7 +7,7 @@ function import_img(url) {
     var x = document.createElement("IMG");
     x.setAttribute("src", url);
     x.setAttribute("width", "170px");
-    x.setAttribute("height", "150px");
+    x.setAttribute("height", "300px");
     x.setAttribute("alt", "image not available");
     document.body.querySelector(".container").lastChild.appendChild(x);
 }
