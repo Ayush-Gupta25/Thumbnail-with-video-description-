@@ -26,7 +26,7 @@ function import_title(titles, cname, views, monthold) {
     }
     else {
         views /= 1000000;
-        c.innerHTML = cname + "&#183;" + parseInt(views) + "K" + "&#183;" + monthold + " months ago"
+        c.innerHTML = cname + "&#183;" + parseInt(views) + "M" + "&#183;" + monthold + " months ago"
     }
     c.className = "cnames"
     document.body.querySelector(".cont").appendChild(c);
